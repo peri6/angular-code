@@ -16,6 +16,6 @@ export class HelloComponent implements OnInit {
         // this.http.get<{ message: string }>('http://127.0.0.1:5000/api/hello').subscribe(data => {
             // this.message = data.message;
         this.message="AWS says Hello";
-        });
+        
     }
 }
